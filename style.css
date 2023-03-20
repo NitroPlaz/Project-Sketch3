@@ -1,0 +1,31 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color :black;
+    background-color: darkturquoise;
+}
+
+#show-sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: Shadow;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Shadow {
+    from {box-shadow: 2px 2px 50px rgb(255, 0, 115);}
+    to { box-shadow: 2px 2px 50px rgb(4, 2, 115);}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
